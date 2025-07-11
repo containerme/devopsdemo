@@ -1,4 +1,4 @@
-# Landscape Setup and API Token Creation
+# Landscape Setup Service-account and API Token Creation
 
 ## Prerequisite  
 Ensure the playbook **`deploy_ssl_to_lxc.yml`** has successfully run.  
