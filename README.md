@@ -4,7 +4,6 @@
 Ensure the playbook **`deploy_ssl_to_lxc.yml`** has successfully run.  
 This means your Landscape server is properly installed with SSL enabled, and the web interface is accessible via HTTPS at:  
 
-
 ---
 
 ## 1. Creating a Standalone Admin User in Landscape
@@ -36,17 +35,10 @@ If your Landscape version supports API tokens, you can create them as follows:
 Log in using the newly created admin user (e.g., `svc-config`).
 
 2. **Go to User Settings**  
-Navigate to **User Settings** or **Account Settings**.
+Navigate to **administrators** and **svc-config**.
 
 3. **Locate the API Tokens section**  
-Find the section named **API Tokens** or **Access Tokens**.
-
-4. **Create a new token**  
-Click **Create Token** to generate a new API token.
-
----
-
-Once these steps are complete, you will have a secure Landscape environment with an admin account and, if supported, an API token for automated API access.
+Navigate to **API access** and  Click **Generate API credentials**.
 
 ---
 
